@@ -70,7 +70,7 @@ print(p) //print the sorted ID's
 q=[]
 //start a loop to get every ID's from the list p
 for i in p:
-    q.append("u"+str(i)+"@student.cuet.ac.bd")
+    q.append("u"+str(i)+"@student.cuet.ac.bd") // my academic email format is u1703003@student.cuet.ac.bd
 print(q)
 //remove the inverted comma's from the list
 print ("List in proper method", '[%s]' % ', '.join(map(str, q)))
