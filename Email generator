@@ -1,0 +1,79 @@
+// This is a python code for generating academic full email id with academic ID
+//get the academic ID's
+p=[1609019,
+1609007,
+1603088,
+1602021,
+1609009,
+1603105,
+1603066,
+1602058,
+1609002,
+1602007,
+1602046,
+1609013,
+1602063,
+1603116,
+1603062,
+1609014,
+1609023,
+1603093,
+1603117,
+1603020,
+1609006,
+1602038,
+1609003,
+1603029,
+1609001,
+1602101,
+1609018,
+1609004,
+1609030,
+1609027,
+1603047,
+1602004,
+1604071,
+1609026,
+1602080,
+1608029,
+1609029,
+1603108,
+1602011,
+1603075,
+1603084,
+1602079,
+1602002,
+1603038,
+1604083,
+1603098,
+1603059,
+1603123,
+1603111,
+1603044,
+1609027,
+1603094,
+1603046,
+1603022,
+1604007,
+1603095,
+1608013,
+1603074,
+1603020,
+1602128,
+1604023,
+1603045,
+1604065]
+//sort them
+p.sort()
+print(p) //print the sorted ID's
+//assign an empty list
+q=[]
+//start a loop to get every ID's from the list p
+for i in p:
+    q.append("u"+str(i)+"@student.cuet.ac.bd")
+print(q)
+//remove the inverted comma's from the list
+print ("List in proper method", '[%s]' % ', '.join(map(str, q)))
+//RUN and enjoy!!!
+
+
