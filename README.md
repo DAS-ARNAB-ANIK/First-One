@@ -1,4 +1,4 @@
-# First-One
+# Email-Generator-From-ID
 ### One of my seniors asked me to get academic emails for about 63 students from their academic ID's
 #This python3.8 code is here for this specific purpose
 #You can change the ID's inside the initial list named "P" inside the code according to your need.
